@@ -28,12 +28,12 @@ cursor: pointer;
 }
 
 .slider::after{
-    content: '100';
+    content: '10';
     color: gray;
     font-size: 1rem;
     position: absolute;
     top: 43%;
-    left: 48%;
+    left: 49%;
 }
 .slider::before{
     content: '0';
@@ -41,7 +41,7 @@ cursor: pointer;
     font-size: 1rem;
     position: absolute;
     top: 43%;
-    left: 1%;
+    left: 0.7%;
 }
 
 .slidecontainer{
@@ -50,5 +50,5 @@ cursor: pointer;
 }
 
 #value-title{
-    margin-top: 47px;
+    margin-top: 43px;
 }
