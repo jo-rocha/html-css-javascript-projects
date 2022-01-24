@@ -7,61 +7,67 @@
 </head>
 
 <body>
-<h2>Identification</h2>
-<div class="id-information">
-    <form action="/handling-form-page" method="post">
-        <ul>
-            <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
-            </li>
-            <li>
-                <label for="birthday">Birthday:</label>
-                <input type="date" id="birthday" name="user_age" value="2000-01-01">
-            </li>
-            <li>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="user_email">
-            </li>
-        </ul>
-    </form>
+<div id='id'>
+    <h2>Identification</h2>
+    <div id="id-information">
+        <form action="/handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="user_age" value="2000-01-01">
+                </li>
+                <li>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="user_email">
+                </li>
+            </ul>
+        </form>
+    </div>
 </div>
-<h2>General life information</h2>
-<div class="life-information">
-    <p>Do you have any pets?</p>
-    <form action="/handling-form-page">
-        <ul>
-            <li style="display: inline;">
-                <label for="yes">Yes</label>
-                <input type="radio" name="pets-answer" id="yes" value="yes">
-            </li>
-            <li style="display: inline;">
-                <label for="no">No</label>
-                <input type="radio" name="pets-answer" id="no" value="no">
-            </li>
-        </ul>
-    </form>
-    <p>Which animal would you rather have as a pet?</p>
-    <select name="preferable-pet" id="pets">
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="fish">Fish</option>
-        <option value="bird">Bird</option>
-    </select>
+<div id='life'>
+    <h2>General life information</h2>
+    <div id='life-information'>
+        <p>Do you have any pets?</p>
+        <form action="/handling-form-page">
+            <ul>
+                <li style="display: inline;">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="pets-answer" id="yes" value="yes">
+                </li>
+                <li style="display: inline;">
+                    <label for="no">No</label>
+                    <input type="radio" name="pets-answer" id="no" value="no">
+                </li>
+            </ul>
+        </form>
+        <p>Which animal would you rather have as a pet?</p>
+        <select name="preferable-pet" id="pets">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="fish">Fish</option>
+            <option value="bird">Bird</option>
+        </select>
+
+        <p>On a scale of 0 to 10, how satisfied are you with your life at this point?</p>
+        <input type="range" name="satisfaction-slider" id="satisfaction-slider" 
+        min="0" max="10" value="5" class="slider">
+        <p id="value-title">Value: <span id="value"></span></p>
+        <script type="text/javascript" src="/js/main.js"></script>
+    </div>
 </div>
-<p>On a scale of 0 to 10, how satisfied are you with your life at this point?</p>
-<div class="slidecontainer">
-    <input type="range" name="satisfaction-slider" id="satisfaction-slider" 
-    min="0" max="10" value="5" class="slider">
-    <p id="value-title">Value: <span id="value"></span></p>
-    <script type="text/javascript" src="/js/main.js"></script>
-</div>
-<div class="message">
+<div id="message">
     <p>Thank you for answering the survey. Feel free to live us a message!</p>
     <label for="text-area">
-        <textarea name="message" id="text-message" cols="30" rows="10" placeholder="Leave your message here..."></textarea>
+        <textarea name="message" id="text-message" cols="60" rows="10" placeholder="Leave your message here..."></textarea>
     </label>
+</div>
+<div id='submit-div'>
+    <input type="submit" id='submit'>
 </div>
 </body>
 </html>

@@ -1,3 +1,50 @@
+/*FORM*/
+#id{
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background: rgb(128, 128, 128, .8);
+    padding: 20px;
+    border-radius: 25px;
+    back
+}
+#id-information{
+}
+#life{
+    margin: 0 auto;
+    width: 500px;
+    background: rgb(128, 128, 128, .8);
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 25px;
+}
+#message{
+    margin: 0 auto;
+    width: 500px;
+    background: rgb(128, 128, 128, .8);
+    padding: 20px;
+    border-radius: 25px;
+
+}
+#submit{
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+}
+#submit-div{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 40px;
+}
+ul{
+    list-style: none;
+}
+form li + li{
+    margin-top: 1em;
+}
+/*FORM*/
+/*SLIDER*/
 .slider{
     background: #d3d3d3;
     opacity: 0.7;
@@ -29,7 +76,7 @@ cursor: pointer;
 
 .slider::after{
     content: '10';
-    color: gray;
+    color: rgb(30, 255, 0);
     font-size: 1rem;
     position: absolute;
     top: 43%;
@@ -37,11 +84,11 @@ cursor: pointer;
 }
 .slider::before{
     content: '0';
-    color: gray;
+    color: rgb(255, 0, 0);
     font-size: 1rem;
     position: absolute;
     top: 43%;
-    left: 0.7%;
+    left: 37.5%;
 }
 
 .slidecontainer{
@@ -52,3 +99,4 @@ cursor: pointer;
 #value-title{
     margin-top: 43px;
 }
+/*SLIDER*/
