@@ -8,41 +8,46 @@ body{
 }
 #id{
     /* margin: 0 auto;
-    width: 500px;
+    width: 500px;*/
     margin-bottom: 40px;
     margin-top: 40px;
-    background: rgb(128, 128, 128, .8);
+    background: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 25px;
-    back */
 }
 #id-information{
 }
 #life{
     /* margin: 0 auto;
-    width: 500px;
-    background: rgb(128, 128, 128, .8);
+    width: 500px;*/
+    background: rgba(255, 255, 255, 0.9);
     margin-bottom: 40px;
     padding: 20px;
-    border-radius: 25px; */
+    border-radius: 25px; 
 }
 #message{
     /* margin: 0 auto;
-    width: 500px;
-    background: rgb(128, 128, 128, .8);
+    width: 500px;*/
+    background: rgba(255, 255, 255, 0.9);
     padding: 20px;
-    border-radius: 25px; */
+    border-radius: 25px; 
 
 }
 #submit{
-    /* margin: 0 auto;
+    margin: 0 auto;
     width: 200px;
-    height: 40px; */
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+}
+#submit:hover{
+    opacity: 0.9;
 }
 #submit-div{
-    /* margin: 0 auto;
+    margin: 0 auto;
     width: 500px;
-    margin-top: 40px; */
+    margin-top: 40px;
 }
 ul{
     list-style: none;
