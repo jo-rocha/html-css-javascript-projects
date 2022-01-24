@@ -1,41 +1,48 @@
 /*FORM*/
+body{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(135deg, cyan, #5521ce); */
+    background: url('/images/leaves.jpg');
+}
 #id{
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 500px;
     margin-bottom: 40px;
     margin-top: 40px;
     background: rgb(128, 128, 128, .8);
     padding: 20px;
     border-radius: 25px;
-    back
+    back */
 }
 #id-information{
 }
 #life{
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 500px;
     background: rgb(128, 128, 128, .8);
     margin-bottom: 40px;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 25px; */
 }
 #message{
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 500px;
     background: rgb(128, 128, 128, .8);
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 25px; */
 
 }
 #submit{
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 200px;
-    height: 40px;
+    height: 40px; */
 }
 #submit-div{
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 500px;
-    margin-top: 40px;
+    margin-top: 40px; */
 }
 ul{
     list-style: none;
@@ -48,7 +55,7 @@ form li + li{
 .slider{
     background: #d3d3d3;
     opacity: 0.7;
-    width: 50%;
+    /* width: 50%; */
     -webkit-appearance: none;
     box-shadow: 0px 1px 5px 0px gray;
     border-radius: 12px;
@@ -78,25 +85,25 @@ cursor: pointer;
     content: '10';
     color: rgb(30, 255, 0);
     font-size: 1rem;
-    position: absolute;
+    /* position: absolute;
     top: 43%;
-    left: 49%;
+    left: 49%; */
 }
 .slider::before{
     content: '0';
     color: rgb(255, 0, 0);
     font-size: 1rem;
-    position: absolute;
+    /* position: absolute;
     top: 43%;
-    left: 37.5%;
+    left: 37.5%; */
 }
 
 .slidecontainer{
-    width: 100%;
-    margin-top: 10px;
+    /* width: 100%;
+    margin-top: 10px; */
 }
 
 #value-title{
-    margin-top: 43px;
+    /* margin-top: 43px; */
 }
 /*SLIDER*/
