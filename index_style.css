@@ -6,6 +6,25 @@ body{
     /* background: linear-gradient(135deg, cyan, #5521ce); */
     background: url('/images/leaves.jpg');
 }
+/* #name, #namelabel, #email, #emaillabel, #birthday, #birthdaylabel{
+    display: flex;
+    flex-direction: column;
+}*/
+#radio-div{
+    text-align: center;
+}
+#name{
+    margin-left: 80px;
+}
+#email{
+    margin-left: 75px;
+}
+#birthday{
+    margin-left: 65px;
+}
+#title{
+    text-align: center;
+}
 #id{
     /* margin: 0 auto;
     width: 500px;*/
@@ -14,8 +33,10 @@ body{
     background: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 25px;
+    text-align: center;
 }
 #id-information{
+    text-align: center;
 }
 #life{
     /* margin: 0 auto;
@@ -24,6 +45,7 @@ body{
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 25px; 
+    text-align: center;
 }
 #message{
     /* margin: 0 auto;
@@ -31,7 +53,11 @@ body{
     background: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 25px; 
+    text-align: center;
 
+}
+#submit-div{
+    text-align: center;
 }
 #submit{
     margin: 0 auto;
