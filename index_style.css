@@ -118,17 +118,17 @@ cursor: pointer;
     content: '10';
     color: black;
     font-size: 1rem;
-    position: absolute;
-    left: 62%;
-    top: 93%;
+    position: relative;
+    left:170%;
+    top: 20%;
 }
 .slider::before{
     content: '0';
     color: black;
     font-size: 1rem;
-    position: absolute;
-    left: 37.5%;
-    top: 93%;
+    position: relative;
+    left: 20%;
+    top: 20%;
 }
 
 .slidecontainer{
