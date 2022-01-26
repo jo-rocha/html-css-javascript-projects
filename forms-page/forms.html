@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>survey-form</title>
+    <link rel="stylesheet" href="../forms-page/forms_style.css">
+</head>
+
+<body style="font-family:'Times New Roman', Times, serif; font-size: 20px;">
+<div id="title">
+    <h1 style="color: white; font-size: 60px;">Survey Form</h1>
+</div>
+<div id='id'>
+    <h2 style="margin-bottom: 30px;">Identification</h2>
+    <div id="id-information">
+        <form action="/handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name" id='namelabel'>Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="email" id='emaillabel'>E-mail:</label>
+                    <input type="email" id="email" name="user_email">
+                </li>
+                <li>
+                    <label for="birthday" id='birthdaylabel'>Birthday:</label>
+                    <input type="date" id="birthday" name="user_age" value="2000-01-01" style="cursor: pointer;">
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+
+<div id='life'>
+    <h2 style="margin-bottom: 30px;">General life information</h2>
+    <div id='life-information'>
+        <p>Do you have any pets?</p>
+        <form action="/handling-form-page" style="margin-bottom: 30px;">
+            <ul style="margin-right: 37px;">
+                <li style="display: inline;">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="pets-answer" id="yes" value="yes" style="cursor: pointer;">
+                </li>
+                <li style="display: inline;">
+                    <label for="no">No</label>
+                    <input type="radio" name="pets-answer" id="no" value="no" style="cursor: pointer;">
+                </li>
+            </ul>
+        </form>
+        <p>Which animal would you rather have as a pet?</p>
+        <select name="preferable-pet" id="pets" style="margin-bottom: 30px; cursor: pointer;">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="fish">Fish</option>
+            <option value="bird">Bird</option>
+        </select>
+
+        <p style="margin-left: 30px; margin-right: 30px;">On a scale of 0 to 10, how satisfied are you with your life at this point?</p>
+        <input type="range" name="satisfaction-slider" id="satisfaction-slider" 
+        min="0" max="10" value="5" class="slider">
+        <p id="value-title">Value: <span id="value"></span></p>
+        <script type="text/javascript" src="/forms-page/js/main.js"></script>
+    </div>
+</div>
+
+<div id="message">
+    <p>Thank you for answering the survey. Feel free to live us a message!</p>
+    <label for="text-area">
+        <textarea name="message" id="text-message" cols="60" rows="10" placeholder="Leave your message here..."></textarea>
+    </label>
+</div>
+
+<div id='submit-div'>
+    <input type="submit" id='submit'>
+</div>
+
+</body>
+</html>

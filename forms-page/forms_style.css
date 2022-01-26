@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(135deg, cyan, #5521ce); */
-    background: url('/images/leaves.jpg');
+    background: url('/forms-page/img/leaves.jpg');
 }
 /* #name, #namelabel, #email, #emaillabel, #birthday, #birthdaylabel{
     display: flex;
