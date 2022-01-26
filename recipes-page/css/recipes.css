@@ -1,0 +1,37 @@
+/* TOP-PANNEL */
+#top-pannel{
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: coral;
+    background-color: coral; 
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+}
+/* TOP-PANNEL */
+body{
+    margin: 0;
+    padding: 0;
+}
+.food-type-block{
+    width: 30%;
+    height: 30%;
+    border-style: solid;
+}
+#mainmealpic{
+    width: 100%;
+    height: 100%;
+}
+#drinkspic{
+    width: 100%;
+    height: 100%;
+}
+#breakfestpic{
+    width: 100%;
+    height: 100%;
+}
+#dessertspic{
+    width: 100%;
+    height: 100%;
+}
