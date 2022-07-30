@@ -22,38 +22,38 @@ body{
     display: flex;
 }
 /* the class for all the divs containing types of food */
-.food-type-block{ 
+.recipe-block{ 
     width: 30%;
     height: 20rem;
     border-style: solid;
     border-color: coral;
 }
-#mainmealpic{
+#odenpic{
     width: 100%;
     height: 100%;
 }
-#main-meal{
+#oden{
     margin-left: 160px;
     border-style: solid
 }
-#drinkspic{
+#takoyakipic{
     width: 100%;
     height: 100%;
 }
-#drinks{
+#takoyaki{
     margin-left: 160px;
 }
-#breakfestpic{
+#springrollpic{
     width: 100%;
     height: 100%;
 }
-#breakfest{
+#springroll{
     margin-left: 160px;
 }
-#dessertspic{
+#souppic{
     width: 100%;
     height: 100%;
 }
-#desserts{
+#soup{
     margin-left: 160px;
 }
