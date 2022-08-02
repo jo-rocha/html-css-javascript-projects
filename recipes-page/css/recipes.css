@@ -9,19 +9,24 @@
     display: flex;
     justify-content: center;
 }
-/* TOP-PANNEL */
+/* TOP-PANNEL END*/
 body{
     margin: 0;
     padding: 0;
 }
+#welcome-sentence{
+    padding: 5rem;
+}
+/*block for the top two recipes*/
 #first-content-block{
     display: flex;
     margin-bottom: 100px;
 }
+/*block for the bottom two recipes*/
 #second-content-block{
     display: flex;
 }
-/* the class for all the divs containing types of food */
+/* the class for all the divs containing recipes*/
 .recipe-block{ 
     width: 30%;
     height: 20rem;
